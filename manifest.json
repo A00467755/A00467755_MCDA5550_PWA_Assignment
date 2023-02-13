@@ -1,0 +1,20 @@
+{
+    "name": "MCDA5550-PWA-Assignment-to_do_list",
+    "short_name": "to_do_list",
+    "description": "To Do List Application",
+    "start_url": "/",
+    "scope": ".",
+    "display": "standalone",
+    "background_color": "#FFFFFF",
+    "theme_color": "#EEEEEE",
+    "orientation": "portrait",
+    "dir": "ltr",
+    "lang": "en-CA",
+    "icons": [
+        {
+            "src": "/Carlton_icon.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+    ]
+}

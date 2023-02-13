@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="manifest" href="/manifest.json">
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+    <div class="header">
+        <img src="/Carlton_icon.png" width="75px" height="75px" />
+        <h1>To-Do List</h1>
+    </div>
+    <div class="header">
+        <h2>Kin Wa, Chan</h2>
+    </div>
+
+    <hr />
+    
+    <div>
+        <form>
+            <div>
+                <label for="taskName">Task Name</label>
+                <input type="text" id="taskName" name="taskName">
+            </div>
+            <div>
+                <label for="dueDate">Due Date</label>
+                <input type="date" id="dueDate" name="dueDate" placeholder="yyyy-mm-dd">
+            </div>
+            <div>
+                <label for="assignTo">Assign To</label>
+                <input type="text" id="assignTo" name="assignTo">
+            </div>
+            <input type="submit" value="Add To-Do Item">
+        </form>
+
+    </div>
+    <hr />
+
+    <ul id="toDoList"></ul>
+
+</body>
+
+<script src="https://unpkg.com/dexie/dist/dexie.js"></script>
+<script src="/db.js"></script>
+<script src="/script.js"></script>
+
+</html>
